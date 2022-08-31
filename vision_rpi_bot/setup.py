@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'publisher_node= vision_rpi_bot.publisher:main',
-                'subsciber_node = vision_rpi_bot.subsciber:main',
+                'publisher_rpi_node= vision_rpi_bot.publisher:main',
+                'subsciber_rpi_node = vision_rpi_bot.subsciber:main',
                             ],
                 },
 )
