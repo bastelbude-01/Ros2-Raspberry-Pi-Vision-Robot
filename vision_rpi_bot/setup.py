@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
                 'publisher_rpi_node= vision_rpi_bot.publisher:main',
                 'subsciber_rpi_node = vision_rpi_bot.subsciber:main',
+                'cmdVel_to_pwm_node = vision_rpi_bot.cmd_to_pwm_driver:main',
+
                             ],
                 },
 )
