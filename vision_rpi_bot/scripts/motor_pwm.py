@@ -4,13 +4,13 @@ import time
 
 # L298N pins to Raspberry Pi GPIO
 
-right_motor_en = 5
-right_motor_a = 13
-right_motor_b = 6
+right_motor_en = 25
+right_motor_a = 24
+right_motor_b = 23
 
-left_motor_a = 19
-left_motor_b = 16
-left_motor_en = 26
+left_motor_a = 14
+left_motor_b = 15
+left_motor_en = 4
 second = 2
 
 
