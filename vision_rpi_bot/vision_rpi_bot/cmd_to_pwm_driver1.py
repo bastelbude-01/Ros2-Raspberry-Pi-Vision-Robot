@@ -60,7 +60,7 @@ def main(args=None):
     velocity_subscriber = VelocitySubscriber()
 
     rclpy.spin(velocity_subscriber)
-    minimal_subscriber.destroy_node()
+    VelocitySubscriber.destroy_node()
     rclpy.shutdown()
 
 
